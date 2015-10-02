@@ -7,12 +7,12 @@ body{
 }
 
 .body {
-  background-color: $grey;
+  background-color: $white;
   width: 100%;
 }
 
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
-.container {
+.container, .footer {
   display: block;
   Margin: 0 auto !important; /* makes it centered */
   max-width: $width;
@@ -26,7 +26,6 @@ body{
   display: block;
   margin: 0 auto;
   max-width: $width;
-  padding: 10px;
 }
 
 
@@ -36,7 +35,6 @@ body{
 
 .main {
   background: #ffffff;
-  border: 1px solid darken($grey, 5);
   border-radius: $br;
   width: 100%;
 }
@@ -51,9 +49,14 @@ body{
 }
 
 .header {
-  margin-bottom: $padding;
-  margin-top: ($padding - 10);
+  margin-bottom: 30px;
+  margin-top: 40px;
   width: 100%;
+
+  table {
+    border-bottom: 1px solid #C2C2C2;
+    padding-bottom: 7px;
+  }
 }
 
 .footer {
@@ -61,8 +64,9 @@ body{
   width: 100%;
 
   * {
-    color: #999999;
-    font-size: 12px;
+    color: #A4AFBB;
+    font-size: 11px;
+    line-height: 1.35;
   }
 
   td {

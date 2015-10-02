@@ -2,7 +2,6 @@
     RESPONSIVE AND MOBILE FRIENDLY STYLES
 ------------------------------------- */
 
-table[class=body]{
   @media only screen and (max-width: $width+40) {
 
     // Type
@@ -14,7 +13,7 @@ table[class=body]{
     }
 
     h1 {
-      font-size: 22px !important;
+      font-size: 30px !important;
     }
 
     h2 {
@@ -28,12 +27,12 @@ table[class=body]{
     // Spacing
     .content,
     .wrapper {
-      padding: 10px !important;
+      // padding: 10px !important;
     }
 
-    .container {
+    .container, .footer {
       padding: 0 !important;
-      width: 100% !important;
+      width: 84% !important;
     }
 
     // Buttons
@@ -41,4 +40,3 @@ table[class=body]{
       width: 100% !important;
     }
   }
-}
